@@ -1,0 +1,63 @@
+@media (max-width: 992px) {
+    .navbar-collapse {
+        position: fixed;
+        top: 50px;
+        left: 0;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 15px;
+        width: 75%;
+        height: 100%;
+
+    }
+
+    .navbar-collapse.collapsing {
+        left: -75%;
+        transition: height 0s ease;
+    }
+
+    .navbar-collapse.show {
+        left: 0;
+        transition: left 300ms ease-in-out;
+    }
+
+    .navbar-toggler.collapsed ~ .navbar-collapse {
+        transition: left 500ms ease-in-out;
+    }
+}
+
+.top-nav-bar__container a:first-child::after {
+    content: "\2022";
+    padding-left: 8px;
+}
+
+.hero__bg-img {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./components/Reusable-Components/Hero/hero-bg-v2.jpg");
+    background-position: right 0% bottom 10%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+}
+
+@media (max-width: 768px) {
+    .hero__bg-img {
+        background-position: right 50% bottom 65%;
+    }
+}
+
+.hero__heading {
+    padding-top: 30vh;
+}
+
+.parallax-scrolling {
+    min-height: 65vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 50% 50%;
+    margin-bottom: 0;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./components/Reusable-Components/ParallaxScrolling/parallax-bg-v2.jpg");
+}
+
+.parallax-scrolling__heading {
+    padding-top: 25vh;
+}

@@ -8,13 +8,12 @@ import {
 // Components
 import Home from './components/Route-Components/Home/Home';
 import Product from './components/Route-Components/Product/Product';
-
-// Style Sheets
-import './App.css';
 import Cart from "./components/Route-Components/Cart/Cart";
 import Checkout from "./components/Route-Components/Checkout/Checkout";
 import OrderReceived from "./components/Route-Components/OrderReceived/OrderReceived";
 import Login from "./components/Route-Components/Login/Login";
+// Style Sheets
+import './App.css';
 
 function App() {
   return (
