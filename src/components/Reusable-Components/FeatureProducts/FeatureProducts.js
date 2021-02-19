@@ -5,7 +5,7 @@ import FeatureProductsItem from "../FeatureProductsItem/FeatureProductsItem";
 
 const FeatureProducts = () => {
   const featureProductItem = {
-    imgSrc: "https://sandas.org.au/wp-content/uploads/2016/01/placeholder-400x400-300x300.png",
+    imgSrc: "https://www.ariat.com/dw/image/v2/AAML_PRD/on/demandware.static/-/Sites-ARIAT/default/dw6f6c491c/images/zoom/10002227_3-4_front.jpg?sw=800&sh=800",
     title: "Product title",
     price: "$209.00"
   }

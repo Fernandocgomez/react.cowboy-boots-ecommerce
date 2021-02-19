@@ -61,3 +61,11 @@
 .parallax-scrolling__heading {
     padding-top: 25vh;
 }
+
+.w-35 {
+    width: 35% !important;
+}
+
+.w-15 {
+    width: 15% !important;
+}
