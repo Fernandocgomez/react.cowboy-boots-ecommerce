@@ -10,7 +10,6 @@ import ProductReview from '../../Reusable-Components/ProductReview/ProductReview
 import ProductReviewOverall from '../../Reusable-Components/ProductReviewOverall/ProductReviewOverall';
 import ProductSizeDropdown from '../../Reusable-Components/ProductSizeDropdown/ProductSizeDropdown';
 import ProductStarts from '../../Reusable-Components/ProductStarts/ProductStarts';
-import ProductTimer from '../../Reusable-Components/ProductTimer/ProductTimer';
 import TopNavBar from '../../Reusable-Components/TopNavBar/TopNavBar'
 
 const Product = () => {
@@ -29,7 +28,6 @@ const Product = () => {
                         <ProductSizeDropdown />
                         <ProductPrice />
                         <ProductQuantity />
-                        <ProductTimer />
                         <ProductCtaButton />
                     </div>
                 </div>
