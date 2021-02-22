@@ -34,6 +34,7 @@ function App() {
         <Route path="/cart" exact component={Cart}/>
         <Route path="/checkout" exact component={Checkout}/>
         <Route path="/shipping" exact component={Shipping} />
+        {/* Payment */}
         <Route path="/order-received" exact component={OrderReceived}/>
         <Route path="/login" exact component={Login}/>
         <Route path="/sign-up" exact component={SignUp}/>
