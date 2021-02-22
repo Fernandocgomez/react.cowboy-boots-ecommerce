@@ -79,3 +79,7 @@
 .checkout__summary {
     background-color: #fafafa;
 }
+
+.shipping__body {
+    min-height: 80vh;
+}

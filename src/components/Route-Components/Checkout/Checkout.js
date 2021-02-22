@@ -12,11 +12,11 @@ const Checkout = () => {
             <CheckoutNavBar />
             <section className="container mb-3 mt-4">
                 <div className="row gx-md-5">
-                    <div className="col-md-7 pe-md-5 checkout__customer-info order-md-first order-last">
+                    <div className="col-xl-7 pe-xl-5 checkout__customer-info order-xl-first order-last">
                         <CustomerInfo />
                         <CheckoutNavigationBtns />
                     </div>
-                    <div className="col-md-5 checkout__summary mb-4">
+                    <div className="col-xl-5 checkout__summary mb-4">
                         <CheckoutSummary />
                     </div>
                 </div>
