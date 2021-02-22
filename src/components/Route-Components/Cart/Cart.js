@@ -17,7 +17,7 @@ const Cart = () => {
                     Cart
                 </h2>
                 <a className="d-block text-decoration-none text-dark text-end">Continue Shopping &#8594;</a>
-                <div className="row gx-5 pt-4">
+                <div className="row gx-md-5 pt-4">
                     <div className="col-md-8">
                         <h4 className="h4 fw-light border-top border-bottom border-1 pt-2 pb-2 border-dark">Products</h4>
                         <CartProduct />

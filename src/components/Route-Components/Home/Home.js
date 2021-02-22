@@ -5,7 +5,7 @@ import Hero from '../../Reusable-Components/Hero/Hero'
 import NavBar from '../../Reusable-Components/NavBar/NavBar'
 import ParallaxScrolling from '../../Reusable-Components/ParallaxScrolling/ParallaxScrolling'
 import TopNavBar from '../../Reusable-Components/TopNavBar/TopNavBar'
-import FeatureProducts from '../../Reusable-Components/FeatureProducts/FeatureProducts'
+import Collection from '../../Reusable-Components/Collection/Collection'
 import Footer from '../../Reusable-Components/Footer/Footer'
 
 const Home = (props) => {
@@ -14,7 +14,7 @@ const Home = (props) => {
             <TopNavBar />
             <NavBar />
             <Hero />
-            <FeatureProducts />
+            <Collection collectionTitle={"Feature Products"}/>
             <ParallaxScrolling />
             <Footer />
         </div>

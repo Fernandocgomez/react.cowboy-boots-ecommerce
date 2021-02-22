@@ -1,5 +1,5 @@
 @media (max-width: 992px) {
-    .navbar-collapse {
+    .navbar-collapse-left {
         position: fixed;
         top: 50px;
         left: 0;
@@ -11,17 +11,17 @@
 
     }
 
-    .navbar-collapse.collapsing {
+    .navbar-collapse-left.collapsing {
         left: -75%;
         transition: height 0s ease;
     }
 
-    .navbar-collapse.show {
+    .navbar-collapse-left.show {
         left: 0;
         transition: left 300ms ease-in-out;
     }
 
-    .navbar-toggler.collapsed ~ .navbar-collapse {
+    .navbar-toggler-left.collapsed ~ .navbar-collapse-left {
         transition: left 500ms ease-in-out;
     }
 }
@@ -62,10 +62,20 @@
     padding-top: 25vh;
 }
 
+/* Bootstrap rewrites */
 .w-35 {
     width: 35% !important;
 }
 
 .w-15 {
     width: 15% !important;
+}
+
+.form-check-input:checked {
+    background-color: #6c757d!important;
+    border-color:  #6c757d!important;
+}
+
+.checkout__summary {
+    background-color: #fafafa;
 }
