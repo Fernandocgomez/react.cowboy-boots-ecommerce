@@ -26,7 +26,7 @@ const CheckoutSummary = () => {
                 </div>
                 <div className="d-flex justify-content-between pt-3">
                     <p className="fw-bold">Total</p>
-                    <p>$135</p>
+                    <p>$135.00</p>
                 </div>
             </div>
             <div className="d-xl-none">

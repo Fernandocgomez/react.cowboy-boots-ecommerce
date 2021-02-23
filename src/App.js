@@ -19,6 +19,7 @@ import AdminLogin from "./components/Route-Components/AdminLogin/AdminLogin";
 import Dashboard from "./components/Route-Components/Dashboard/Dashboard";
 import Orders from "./components/Route-Components/Orders/Orders";
 import Order from "./components/Route-Components/Order/Order";
+import Payment from "./components/Route-Components/Payment/Payment";
 // Style Sheets
 import './App.css';
 
@@ -34,7 +35,7 @@ function App() {
         <Route path="/cart" exact component={Cart}/>
         <Route path="/checkout" exact component={Checkout}/>
         <Route path="/shipping" exact component={Shipping} />
-        {/* Payment */}
+        <Route path="/payment" exact component={Payment} />
         <Route path="/order-received" exact component={OrderReceived}/>
         <Route path="/login" exact component={Login}/>
         <Route path="/sign-up" exact component={SignUp}/>
