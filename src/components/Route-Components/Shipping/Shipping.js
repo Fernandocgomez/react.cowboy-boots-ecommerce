@@ -1,5 +1,7 @@
 import React from 'react'
+import CheckoutShippingOptions from '../../CheckoutShippingOptions/CheckoutShippingOptions'
 import CheckoutFooter from '../../Reusable-Components/CheckoutFooter/CheckoutFooter'
+import CheckoutInfoSummary from '../../Reusable-Components/CheckoutInfoSummary/CheckoutInfoSummary'
 import CheckoutNavBar from '../../Reusable-Components/CheckoutNavBar/CheckoutNavBar'
 import CheckoutNavigationBtns from '../../Reusable-Components/CheckoutNavigationBtns/CheckoutNavigationBtns'
 import CheckoutSummary from '../../Reusable-Components/CheckoutSummary/CheckoutSummary'
@@ -11,18 +13,8 @@ const Shipping = () => {
             <section className="container mb-3 mt-4 shipping__body">
                 <div className="row gx-xl-5">
                     <div className="col-xl-7 pe-xl-5 checkout__shipping order-xl-first order-last">
-                        <div className="row border gx-0">
-                            <div className="col-xl-4 d-flex justify-content-between">
-                                <p>Contact</p>
-                                <p className="d-xl-none">Change</p>
-                            </div>
-                            <div className="col-xl-4">
-                                <p>fernandocgomez@live.com</p>
-                            </div>
-                            <div className="col-xl-4">
-                                <p className="d-none d-xl-block">Change</p>
-                            </div>
-                        </div>
+                        <CheckoutInfoSummary />
+                        <CheckoutShippingOptions />
                         <CheckoutNavigationBtns />
                     </div>
                     <div className="col-xl-5 checkout__summary mb-4">
@@ -36,10 +28,3 @@ const Shipping = () => {
 }
 
 export default Shipping
-
-// CheckoutNavBar
-// CheckoutInfoSummary
-// CheckoutShippingOptions
-// CheckoutNavigationBtns
-// CheckoutSummary
-// CheckoutFooter
