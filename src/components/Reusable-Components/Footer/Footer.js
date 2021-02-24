@@ -16,7 +16,6 @@ const Footer = () => {
                         <h5 className="h5 fw-light border-bottom border-dark border-1 pb-2">About</h5>
                         <p className="pt-1 fw-light">Hello there...</p>
                         <p className="fw-light">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, atque aut sapiente veniam iste eum quaerat repellendus corrupti reprehenderit vitae cumque in expedita laudantium odio ratione sunt ad, nulla ducimus</p>
-                        <p className="fw-light">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, atque aut sapiente veniam iste eum quaerat repellendus corrupti reprehenderit vitae cumque in expedita laudantium odio ratione sunt ad, nulla ducimus</p>
                     </div>
                     <div className="col-md-4 d-flex flex-column">
                         <h5 className="h5 fw-light border-bottom border-dark border-1 pb-2">Newsletter</h5>

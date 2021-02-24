@@ -79,3 +79,8 @@
 .checkout__summary {
     background-color: #fafafa;
 }
+
+.sign-up__body {
+    min-height: 67vh;
+    padding-top: 10vh;
+}
