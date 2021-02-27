@@ -2,8 +2,7 @@
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 // Components
 import Home from './components/Route-Components/Home/Home';
@@ -34,9 +33,9 @@ function App() {
         <Route path="/product/:id" exact component={Product}/>
         <Route path="/cart" exact component={Cart}/>
         <Route path="/checkout" exact component={Checkout}/>
-        <Route path="/shipping" exact component={Shipping} />
-        <Route path="/payment" exact component={Payment} />
-        <Route path="/order-received" exact component={OrderReceived}/>
+        <Route path="/checkout/shipping" exact component={Shipping} />
+        <Route path="/checkout/payment" exact component={Payment} />
+        <Route path="/checkout/order-received" exact component={OrderReceived}/>
         <Route path="/sign-up" exact component={SignUp}/>
         <Route path="/login" exact component={Login}/>
         <Route path="/admin/login" exact component={AdminLogin}/>
