@@ -62,7 +62,6 @@
     padding-top: 25vh;
 }
 
-/* Bootstrap rewrites */
 .w-35 {
     width: 35% !important;
 }
@@ -83,4 +82,8 @@
 .user-form {
     min-height: 67vh;
     padding-top: 10vh;
+}
+
+.dashboard-home__icon {
+    font-size: 5.5rem;
 }
