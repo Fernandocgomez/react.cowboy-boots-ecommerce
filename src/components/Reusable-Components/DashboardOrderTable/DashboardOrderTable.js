@@ -9,16 +9,20 @@ const DashboardOrderTable = ({heading, classNames, ordersDisplayed}) => {
                 <thead>
                     <tr>
                         <th scope="col">Order</th>
-                        <th scope="col">Quantity</th>
-                        <th scope="col">Amount</th>
-                        <th scope="col">Status</th>
+                        <th scope="col">Date</th>
+                        <th scope="col">Customer</th>
+                        <th scope="col">Payment</th>
+                        <th scope="col">Fulfillment</th>
+                        <th scope="col">Total</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <th className="fw-normal" scope="row">0003</th>
+                        <th className="fw-normal" scope="row"><a href="">#0001</a></th>
                         <td>Mark</td>
                         <td>Otto</td>
+                        <td>@mdo</td>
+                        <td>@mdo</td>
                         <td>@mdo</td>
                     </tr>
                     <tr>
@@ -26,12 +30,184 @@ const DashboardOrderTable = ({heading, classNames, ordersDisplayed}) => {
                         <td>Jacob</td>
                         <td>Thornton</td>
                         <td>@fat</td>
+                        <td>@mdo</td>
+                        <td>@mdo</td>
                     </tr>
                     <tr>
                         <th className="fw-normal" scope="row">0006</th>
                         <td>Larry</td>
                         <td>the Bird</td>
                         <td>@twitter</td>
+                        <td>@mdo</td>
+                        <td>@mdo</td>
+                    </tr>
+                    <tr>
+                        <th className="fw-normal" scope="row">0006</th>
+                        <td>Larry</td>
+                        <td>the Bird</td>
+                        <td>@twitter</td>
+                        <td>@mdo</td>
+                        <td>@mdo</td>
+                    </tr>
+                    <tr>
+                        <th className="fw-normal" scope="row">0006</th>
+                        <td>Larry</td>
+                        <td>the Bird</td>
+                        <td>@twitter</td>
+                        <td>@mdo</td>
+                        <td>@mdo</td>
+                    </tr>
+                    <tr>
+                        <th className="fw-normal" scope="row">0006</th>
+                        <td>Larry</td>
+                        <td>the Bird</td>
+                        <td>@twitter</td>
+                        <td>@mdo</td>
+                        <td>@mdo</td>
+                    </tr>
+                    <tr>
+                        <th className="fw-normal" scope="row">0006</th>
+                        <td>Larry</td>
+                        <td>the Bird</td>
+                        <td>@twitter</td>
+                        <td>@mdo</td>
+                        <td>@mdo</td>
+                    </tr>
+                    <tr>
+                        <th className="fw-normal" scope="row">0006</th>
+                        <td>Larry</td>
+                        <td>the Bird</td>
+                        <td>@twitter</td>
+                        <td>@mdo</td>
+                        <td>@mdo</td>
+                    </tr>
+                    <tr>
+                        <th className="fw-normal" scope="row">0003</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                        <td>@mdo</td>
+                        <td>@mdo</td>
+                    </tr>
+                    <tr>
+                        <th className="fw-normal" scope="row">0004</th>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                        <td>@mdo</td>
+                        <td>@mdo</td>
+                    </tr>
+                    <tr>
+                        <th className="fw-normal" scope="row">0006</th>
+                        <td>Larry</td>
+                        <td>the Bird</td>
+                        <td>@twitter</td>
+                        <td>@mdo</td>
+                        <td>@mdo</td>
+                    </tr>
+                    <tr>
+                        <th className="fw-normal" scope="row">0006</th>
+                        <td>Larry</td>
+                        <td>the Bird</td>
+                        <td>@twitter</td>
+                        <td>@mdo</td>
+                        <td>@mdo</td>
+                    </tr>
+                    <tr>
+                        <th className="fw-normal" scope="row">0006</th>
+                        <td>Larry</td>
+                        <td>the Bird</td>
+                        <td>@twitter</td>
+                        <td>@mdo</td>
+                        <td>@mdo</td>
+                    </tr>
+                    <tr>
+                        <th className="fw-normal" scope="row">0006</th>
+                        <td>Larry</td>
+                        <td>the Bird</td>
+                        <td>@twitter</td>
+                        <td>@mdo</td>
+                        <td>@mdo</td>
+                    </tr>
+                    <tr>
+                        <th className="fw-normal" scope="row">0006</th>
+                        <td>Larry</td>
+                        <td>the Bird</td>
+                        <td>@twitter</td>
+                        <td>@mdo</td>
+                        <td>@mdo</td>
+                    </tr>
+                    <tr>
+                        <th className="fw-normal" scope="row">0006</th>
+                        <td>Larry</td>
+                        <td>the Bird</td>
+                        <td>@twitter</td>
+                        <td>@mdo</td>
+                        <td>@mdo</td>
+                    </tr>
+                    <tr>
+                        <th className="fw-normal" scope="row">0003</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                        <td>@mdo</td>
+                        <td>@mdo</td>
+                    </tr>
+                    <tr>
+                        <th className="fw-normal" scope="row">0004</th>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                        <td>@mdo</td>
+                        <td>@mdo</td>
+                    </tr>
+                    <tr>
+                        <th className="fw-normal" scope="row">0006</th>
+                        <td>Larry</td>
+                        <td>the Bird</td>
+                        <td>@twitter</td>
+                        <td>@mdo</td>
+                        <td>@mdo</td>
+                    </tr>
+                    <tr>
+                        <th className="fw-normal" scope="row">0006</th>
+                        <td>Larry</td>
+                        <td>the Bird</td>
+                        <td>@twitter</td>
+                        <td>@mdo</td>
+                        <td>@mdo</td>
+                    </tr>
+                    <tr>
+                        <th className="fw-normal" scope="row">0006</th>
+                        <td>Larry</td>
+                        <td>the Bird</td>
+                        <td>@twitter</td>
+                        <td>@mdo</td>
+                        <td>@mdo</td>
+                    </tr>
+                    <tr>
+                        <th className="fw-normal" scope="row">0006</th>
+                        <td>Larry</td>
+                        <td>the Bird</td>
+                        <td>@twitter</td>
+                        <td>@mdo</td>
+                        <td>@mdo</td>
+                    </tr>
+                    <tr>
+                        <th className="fw-normal" scope="row">0006</th>
+                        <td>Larry</td>
+                        <td>the Bird</td>
+                        <td>@twitter</td>
+                        <td>@mdo</td>
+                        <td>@mdo</td>
+                    </tr>
+                    <tr>
+                        <th className="fw-normal" scope="row">0006</th>
+                        <td>Larry</td>
+                        <td>the Bird</td>
+                        <td>@twitter</td>
+                        <td>@mdo</td>
+                        <td>@mdo</td>
                     </tr>
                 </tbody>
             </table>
