@@ -15,7 +15,6 @@ const DashboardNavbar = () => {
                                 <i className="fas fa-user"></i><span className="ms-2">Fernando Gomez</span>
                             </a>
                             <ul className="dropdown-menu dropdown-menu-end">
-                                <li><button className="dropdown-item" type="button"><i className="fas fa-cog me-2"></i>Settings</button></li>
                                 <li><button className="dropdown-item" type="button"><i className="fas fa-power-off me-2"></i>Log out</button></li>
                             </ul>
                         </li>
@@ -24,13 +23,6 @@ const DashboardNavbar = () => {
                         </li>
                         <li className="nav-item d-lg-none">
                             <a className="nav-link active" href="#"><i className="fas fa-book me-2"></i>Orders</a>
-                        </li>
-                        <li className="nav-item d-lg-none">
-                            <a className="nav-link active" href="#"><i className="fas fa-tags me-2"></i>Products</a>
-                        </li>
-                        <hr className="text-white d-lg-none" />
-                        <li className="nav-item d-lg-none">
-                            <a className="nav-link active" href="#"><i className="fas fa-cog me-2"></i>Settings</a>
                         </li>
                         <li className="nav-item d-lg-none">
                             <a className="nav-link active" href="#"><i className="fas fa-power-off me-2"></i>Log out</a>
