@@ -32,7 +32,7 @@
 }
 
 .hero__bg-img {
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./components/Reusable-Components/Hero/hero-bg-v2.jpg");
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./assets/rachel-coyne-pG4SPFljR4E-unsplash.jpg");
     background-position: right 0% bottom 10%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -55,7 +55,7 @@
     background-size: cover;
     background-position: 50% 50%;
     margin-bottom: 0;
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./components/Reusable-Components/ParallaxScrolling/parallax-bg-v2.jpg");
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./assets/phinehas-adams-hGx54JLvR1A-unsplash.jpg");
 }
 
 .parallax-scrolling__heading {

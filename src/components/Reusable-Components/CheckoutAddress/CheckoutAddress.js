@@ -14,11 +14,6 @@ const CheckoutAddress = () => {
             </div>
             <div class="row mb-3">
                 <div className="col-md-12">
-                    <input type="text" class="form-control rounded-0 pt-2 pb-2 text-secondary" placeholder="Company" />
-                </div>
-            </div>
-            <div class="row mb-3">
-                <div className="col-md-12">
                     <input type="text" class="form-control rounded-0 pt-2 pb-2 text-secondary" placeholder="Address" />
                 </div>
             </div>
